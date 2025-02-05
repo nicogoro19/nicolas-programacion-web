@@ -1,0 +1,6 @@
+/*parametros*/
+
+@mixin medidas ($width,$height){
+    width: $width;
+    height: $height
+}

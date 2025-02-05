@@ -1,0 +1,687 @@
+/* ---------------------------------------------index.html--------------------------------------------- */
+/* ---------------reset de css--------------- */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "roboto";
+}
+
+/* ---------------reset de css--------------- */
+/* ----------------body------------ */
+body{
+    background-color: rgb(9, 18, 44);
+    color: whitesmoke;
+}
+
+/* ----------------body ends------------ */
+/*------------------ header------------------ */
+.header-logo{
+    width: 10 vw;
+}
+.nav-bg{
+    background-color: rgb(135, 35, 65) ;
+}
+
+/*------------------ header-end------------------ */
+/* ------------------main------------------ */
+main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.main__img{
+    height: 100vh;
+    width: 70vw;
+    margin: 10px;
+}
+.contenedor-img-hombre-mujer{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100vw;
+    height: 80vh;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+}
+.main__img-men{
+    height: 80vh;
+    width: 45vw;
+
+}
+.main__img-women{
+    height: 80vh;
+    width: 45vw;
+
+}
+
+
+
+
+
+/* ---------------main accesorios----------- */
+
+.main__accesorios{
+    width: 100%;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: rgb(135, 35, 65);
+    justify-items: center;
+
+}
+.main__accesorios-p{
+    color: rgb(9, 18, 44);
+    font-size: 100px;
+    justify-self: center;
+}
+.accesorios__img{
+    height: 200px;
+    border-radius: 50px;
+    margin: 40px;  
+}
+
+/*---------- main novedades ---------- */
+
+.main__novedades{
+    background-color: rgb(190, 49, 68);
+    width: 100%;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 20px;
+    justify-items: center;
+}
+.main__novedades-p{
+    color: rgb(9, 18, 44);
+    font-size: 100px;
+    justify-self: center;
+}
+
+.novedades__img{
+    height: 200px;
+    border-radius: 50px;
+    margin: 40px;
+}
+
+/* ------------------main-end------------------ */
+/* --------------footer--------------- */
+footer{
+    background-color: #2d2d2d;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.msg-title{
+    color: whitesmoke;
+}
+.footer__form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.footer__label{
+    color: whitesmoke;
+}
+.footer__input{
+    margin: 10px;
+    width: 400px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.derechos{
+    background-color: rgb(9, 18, 44);
+    padding: 10px;
+    text-align: center;
+}
+
+.derechos__text{
+    font-family: cursive;
+    font-size: 20px;
+}
+
+.footer__h3-location{
+    color: whitesmoke;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.footer__map{
+    align-self: center;
+    padding: 10px;
+}
+.footer__img-logo{
+    width: 50%;
+    align-self: center;
+    padding-top: 100px;
+}
+
+
+.menu-lateral {
+    display: grid;
+    grid-template-rows: repeat(4,1fr);
+    position: fixed;
+    left: 7px;
+    bottom: 200px;
+    margin: 5px;
+
+}
+
+.menu-lateral-logo{
+    width: 50px;
+    padding: 5px;
+}
+
+/*---------------- footer-end-------------- */
+/* ------------------------------------index.html ends--------------------------------------------- */
+
+
+
+
+/* -------------------------------------------about us.html--------------------------------------------- */
+
+.contenedor-ab-us{
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+    justify-items: center;
+}
+
+.title-principal-ab-us, .title-secundario-ab-us {
+    text-decoration: underline;
+    text-align: center;
+    color: whitesmoke;
+}
+.title-principal-ab-us{
+    padding: 30px;
+}
+.title-secundario-ab-us{
+    padding-top: 40px;
+}
+
+.ab-us-contenedor-p{
+    border-radius: 10px;
+    width: 50vw;
+    align-items: center;
+    justify-content: center;
+    margin: 30px;
+    padding: 5px;
+    margin-top: 5px;
+    background-color: rgb(135, 35, 65);
+    color: whitesmoke;
+
+
+}
+.ab-us-p{
+    text-align: center;
+}
+
+/* -------------------------------------------about us.html--------------------------------------------- */
+
+
+/* ---------------------------------contact us.html--------------------------------------------- */
+
+.title-contact-us{
+    text-align: center;
+    color: whitesmoke;
+}
+
+.footer__label{
+    color: whitesmo;
+}
+
+/* --------------------------------------contact us.html--------------------------------------------- */
+
+
+/* ------------------------------------------men.html--------------------------------------------- */
+.box-de-ropa{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    column-gap: 70px;
+    row-gap: 30px;
+    justify-content: space-between;
+    align-content: center;
+}
+.card{
+    padding: 5px;
+    margin: 10px;
+    width: 15vw;
+    height: 46vh;    
+    background-color: rgb(135, 35, 65);
+    color: whitesmoke;    
+    text-align: center;    
+    border: 2px solid black;
+    border-radius: 5%;
+}
+.main__men{
+    height: 100vh;
+}
+
+.title-men-women{
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 20px;
+    text-decoration: underline;
+}
+
+.contenedor-btn-compra{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.precio{
+    color:whitesmoke;
+    margin-top: 15px;
+}
+.button-comprar, .button-eliminar{
+    background-color: rgb(9, 18, 44);
+    border-radius: 15px;
+    color: whitesmoke;
+    width: 8vw;
+    padding: 5px;
+    margin-top: 6px;
+}
+
+/* --------------------------------------men.html--------------------------------------------- */
+
+
+/* ----------------------------------------women.html--------------------------------------------- */
+/* -----------------------------------------women.html--------------------------------------------- */
+
+/* ----------------novedades y accesorios------------------------ */
+
+.carrusel{
+    display: flex;
+}
+.carrusel-novedades{
+    margin: 10px;;
+    width: 40vw;
+    display: grid;
+}
+
+.carrusel-accesorios{
+    margin: 10px;
+    width: 40vw;
+    display: grid;
+}
+
+
+/* -----------------novedades ty accesorios end-------------------- */
+
+/* -----------------------------------shoping cart.html--------------------------------------------- */
+.title-shopp-cart{
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.conteiner-card{
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 15px;
+}
+.conteiner-card-shopp-cart{
+    border: 2px solid black;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    height: 30vh;
+    width: 30vw;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: whitesmoke;
+    color: rgb(9, 18, 44);
+}
+.conteiner-card-shopp-cart-img-box{
+    height: vh;
+}
+.conteiner-card-shopp-cart-text{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+.conteiner-card-shopp-cart-img{
+    width: 10vw;
+}
+
+/* boatones de enviar y borrar el carrito */
+.contenedor-botones-comp-vac{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.boton-vaciar-shopp-cart, .boton-comprar-shopp-cart, .boton-seg-compr-shopp-cart{
+    background-color: rgb(135, 35, 65);
+    color: whitesmoke;
+    padding: 10px;
+    width: 20vw;
+}
+
+.title{
+    text-decoration: underline;
+    color: whitesmoke;
+}
+
+
+
+/* ------------------------------------shoping cart.html--------------------------------------------- */
+
+@media only screen and (max-width: 768px)  {
+    body{
+        box-sizing: border-box;
+        width: 100vw;
+        height: 100wh;
+        margin-left: 10px;
+    }
+    /* header */
+    header img{
+        width: 30%;
+    }
+    header nav{
+        margin: 10px;
+    }
+    header nav ul{
+        display: block;
+    }
+    
+    .contenedor-img-hombre-mujer{
+        flex-direction: column;
+        width: 100vw;
+        height: 110vh;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main__img{
+        width: 100vw;
+    }
+        .main__img-men{
+        width: 100vw;
+        height: 50vh;
+        margin: 10px;
+    }
+    .main__img-women{
+        width: 100vw;
+        height: 50vh;
+        margin: 10px;
+    }
+    /* main accesorios */
+    .main__accesorios{
+        height: 23vh;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        padding: 0; 
+        margin-right: 10px;
+    }
+    .img-uno, .img-dos{
+        border-radius: 15%;
+        width: 28vw;
+        height: 28vh;
+    }
+    .img-cuatro, .img-tres{
+        display: none;
+    }
+    .accesorios__img{
+        height: 100px
+    }
+
+    .main__accesorios-p{
+        display: none;
+    }
+    /* main novedades  */
+    .main__novedades{
+        height: 23vh;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        padding: 0; 
+        margin-right: 10px;
+    }
+    .novedades__img{
+        height: 100px
+    }
+
+    .main__novedades-p{
+        display: none;
+    }
+    /* footer */
+    .footer__input{
+        width: 325px;
+    }
+    .map{
+        width: 80vw;
+        height: 50vh;
+    }   
+
+
+    
+
+
+
+    /* --------------------------------men/women---------------------------------- */
+    
+    .box-de-ropa{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        justify-content: center;
+        align-content: center;
+        gap: 5px;
+    }
+    .card{
+        width: 40vw;
+        height: 30vh;    
+        background-color: rgb(135, 35, 65);
+        color: whitesmoke;
+    }
+    .main__men{
+        height: 140vh;
+    }
+    
+    .title-men-women{
+        text-align: center;
+        color: whitesmoke;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .subtitle-box , .box-p{
+        display: none;
+    }
+
+
+    .contenedor-btn-compra{
+        text-align: center;
+        align-items: center;
+    }
+    .button-comprar{
+        display: none;
+        text-align: center;
+    }
+
+
+    /* ------------------shopping cart-------------------- */
+
+    .conteiner-card{
+        display:flex ;
+        flex-direction: column;
+    }
+    .conteiner-card-shopp-cart{
+        width: 100vw;
+        justify-content: space-around;
+        margin: 10px;
+        padding: 10px;
+        margin-right: 20px;
+    }
+    .conteiner-card-shopp-cart-img{
+        width: 30vw;
+    }
+    .button-eliminar{
+        width: 30vw;
+    }
+    .boton-comprar-shopp-cart, .boton-vaciar-shopp-cart, .boton-seg-compr-shopp-cart{
+        width: 80vw;
+    }
+/* ------------------about us------------------ */
+    .ab-us-img{
+        width: 70vw;
+    }
+    .ab-us-contenedor-p{
+        width: 70vw;
+    }
+
+
+
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    header{
+        justify-content: space-between;
+    }
+    /* main accesorios */
+    .main__accesorios{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+    .main__accesorios-p{
+        display: none;
+    }
+    /* main novedades */
+    .main__novedades{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+    }
+    .main__novedades-p{
+        display: none;
+    } 
+    .contenedor-img-hombre-mujer{
+        height: 60vh
+    }
+    .main__img-men, .main__img-women{
+        height: 60vh;
+    }
+
+    /* ------------------------men/women------------ */
+
+    .title-men-women{
+        text-decoration: underline;
+    }
+    .main__men{
+        height: 140vh;
+    }
+    .box-de-ropa{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3,1fr);
+    }
+    .card{
+        height: 38vh;
+        width: 40vw;
+    }
+    .button-comprar{
+        width:20vw; 
+        height: 3vh;
+    }
+    /* ---------------------------men/women---------------------------- */
+
+    .card{
+        height: 38vh;
+    }
+
+    /* --------------------shopping cart--------------------- */
+
+    .conteiner-card{
+        display:flex ;
+        flex-direction: column;
+    }
+    .conteiner-card-shopp-cart{
+        width: 80vw;
+        justify-content: space-around;
+        margin: 10px;
+        padding: 10px;
+        margin-right: 20px;
+    }
+    .conteiner-card-shopp-cart-img{
+        width: 30vw;
+    }
+    .button-eliminar{
+        width: 30vw;
+    }
+    .boton-comprar-shopp-cart, .boton-vaciar-shopp-cart, .boton-seg-compr-shopp-cart{
+        width: 50vw;
+    }
+
+    /* -------------about us----------- */
+
+    .ab-us-contenedor-p{
+        width: 80vw;
+    }
+
+}
+@media only screen and (min-width: 1200px){
+    .main__accesorios{
+        justify-self: center;
+        align-items: center;
+        display: flex;
+        justify-content: space-around;
+    }
+    .main__accesorios-p{
+        display: inline;
+    }
+    .accesorios__img{
+        width: 170px;
+        height: 170px;
+    }
+    .img-cuatro{
+        display: none;
+    }
+
+    .main__novedades{
+        justify-self: center;
+        align-items: center;
+        display: flex;
+        justify-content: space-around;
+    }
+    .main__novedades-p{
+        display: inline;
+    }
+    .novedades__img{
+        width: 170px;
+        height: 170px;
+    }
+    .img-cuatro{
+        display: none;
+    }
+    .footer__input{
+        width: 500px;
+    }
+} 
