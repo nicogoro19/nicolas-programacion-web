@@ -203,16 +203,97 @@ footer{
         margin: 10px;
         width: 15vw;
         height: 46vh;    
-        background-color: rgb(135, 35, 65);
-        color: whitesmoke;    
+        background-color: $secondary-color;
+        color: $font-color1;    
         text-align: center;    
-        border: 2px solid black;
+        border: 2px solid $primary-color;
         border-radius: 5%;
+        .contenedor-btn-compra{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+            .precio{
+                color:$font-color1;
+                margin-top: 15px;
+            }
+        }
     }
+}
+.button-comprar, .button-eliminar{
+    background-color: $primary-color;
+    border-radius: 15px;
+    color: $font-color1;
+    width: 8vw;
+    padding: 5px;
+    margin-top: 6px;
+}
+
+/*shopping cart*/
+.title-shopp-cart{
+    text-align: center;
+    color: $font-color1;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+.conteiner-card{
+    margin: 10px;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 15px;
+    .conteiner-card-shopp-cart{
+        border: 2px solid $primary-color;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: row;
+        height: 30vh;
+        width: 30vw;
+        align-items: center;
+        justify-content: space-between;
+        padding: 15px;
+        background-color: $font-color1;
+        color: rgb(9, 18, 44);
+        .conteiner-card-shopp-cart-img-box{
+            height: vh;
+            .conteiner-card-shopp-cart-img{
+                width: 10vw;
+            }
+        }
+        .conteiner-card-shopp-cart-text{
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+            align-items: center;
+            justify-content: space-between;
+            text-align: center;
+        }
+    }
+}
+.contenedor-botones-comp-vac{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.boton-vaciar-shopp-cart, .boton-comprar-shopp-cart, .boton-seg-compr-shopp-cart{
+background-color: $secondary-color;
+color: $font-color1;
+padding: 10px;
+width: 20vw;
+}
+.title{
+    text-decoration: underline;
+    color: $font-color1;
 }
 
 
-
+/*media queries*/
 
 
 

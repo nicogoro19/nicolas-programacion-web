@@ -208,8 +208,95 @@ footer .footer__img-logo {
   background-color: rgb(135, 35, 65);
   color: whitesmoke;
   text-align: center;
-  border: 2px solid black;
+  border: 2px solid rgb(9, 18, 44);
   border-radius: 5%;
 }
+.main__men .card .contenedor-btn-compra {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.main__men .card .contenedor-btn-compra .precio {
+  color: whitesmoke;
+  margin-top: 15px;
+}
+
+.button-comprar, .button-eliminar {
+  background-color: rgb(9, 18, 44);
+  border-radius: 15px;
+  color: whitesmoke;
+  width: 8vw;
+  padding: 5px;
+  margin-top: 6px;
+}
+
+/*shopping cart*/
+.title-shopp-cart {
+  text-align: center;
+  color: whitesmoke;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.conteiner-card {
+  margin: 10px;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 15px;
+}
+.conteiner-card .conteiner-card-shopp-cart {
+  border: 2px solid rgb(9, 18, 44);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: row;
+  height: 30vh;
+  width: 30vw;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  background-color: whitesmoke;
+  color: rgb(9, 18, 44);
+}
+.conteiner-card .conteiner-card-shopp-cart .conteiner-card-shopp-cart-img-box {
+  height: vh;
+}
+.conteiner-card .conteiner-card-shopp-cart .conteiner-card-shopp-cart-img-box .conteiner-card-shopp-cart-img {
+  width: 10vw;
+}
+.conteiner-card .conteiner-card-shopp-cart .conteiner-card-shopp-cart-text {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.contenedor-botones-comp-vac {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.boton-vaciar-shopp-cart, .boton-comprar-shopp-cart, .boton-seg-compr-shopp-cart {
+  background-color: rgb(135, 35, 65);
+  color: whitesmoke;
+  padding: 10px;
+  width: 20vw;
+}
+
+.title {
+  text-decoration: underline;
+  color: whitesmoke;
+}
+
+/*media queries*/
 
 /*# sourceMappingURL=style.css.map */
