@@ -259,25 +259,6 @@ section .footer__form .btn-enviar {
   margin-top: 6px;
 }
 
-aside .main__accesorios-novedades {
-  width: 100%;
-  padding: 30px;
-  margin: 10px;
-  border-radius: 20px;
-  background-color: rgb(135, 35, 65);
-  justify-items: center;
-}
-aside .main__accesorios-novedades .main__accesorios-novedades-p {
-  color: rgb(9, 18, 44);
-  font-size: 100px;
-  justify-self: center;
-}
-aside .main__accesorios-novedades .accesorios-novedades__img {
-  height: 200px;
-  border-radius: 50px;
-  margin: 40px;
-}
-
 /*shopping cart*/
 .title-shopp-cart {
   text-align: center;
@@ -373,7 +354,7 @@ aside .main__accesorios-novedades .accesorios-novedades__img {
     margin: 10px;
   }
   /*main accesorios y novedades*/
-  main .main__accesorios-novedades {
+  .main__accesorios-novedades {
     height: 23vh;
     width: 100%;
     display: grid;
@@ -381,18 +362,18 @@ aside .main__accesorios-novedades .accesorios-novedades__img {
     padding: 0;
     margin-right: 10px;
   }
-  main .main__accesorios-novedades .img-uno, main .main__accesorios-novedades .img-dos {
+  .main__accesorios-novedades .img-uno, .main__accesorios-novedades .img-dos {
     border-radius: 15%;
     width: 28vw;
     height: 28vh;
   }
-  main .main__accesorios-novedades .img-cuatro, main .main__accesorios-novedades .img-tres {
+  .main__accesorios-novedades .img-cuatro, .main__accesorios-novedades .img-tres {
     display: none;
   }
-  main .main__accesorios-novedades .accesorios-novedades__img {
+  .main__accesorios-novedades .accesorios-novedades__img {
     height: 100px;
   }
-  main .main__accesorios-novedades .main__accesorios-novedades-p {
+  .main__accesorios-novedades .main__accesorios-novedades-p {
     display: none;
   }
   aside .main__accesorios-novedades {
@@ -417,162 +398,12 @@ aside .main__accesorios-novedades .accesorios-novedades__img {
   aside .main__accesorios-novedades .main__accesorios-novedades-p {
     display: none;
   }
-  footer .footer__form .footer__input {
-    width: 80%;
+  .footer__input {
+    width: 325px;
   }
   .map {
     width: 80vw;
     height: 50vh;
-  }
-  /*men/women*/
-  .title-men-women {
-    text-align: center;
-    color: whitesmoke;
-    margin-top: 20px;
-    margin-bottom: 30px;
-  }
-  .main__men .box-de-ropa {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    justify-content: center;
-    align-content: center;
-    gap: 5px;
-  }
-  .main__men .box-de-ropa .card {
-    width: 40vw;
-    height: 30vh;
-    background-color: rgb(135, 35, 65);
-    color: whitesmoke;
-  }
-  .main__men .box-de-ropa .card .subtitle-box, .main__men .box-de-ropa .card .box-p {
-    display: none;
-  }
-  .main__men .box-de-ropa .card .contenedor-btn-compra {
-    text-align: center;
-    align-items: center;
-  }
-  .main__men .box-de-ropa .card .contenedor-btn-compra .button-comprar {
-    display: none;
-    text-align: center;
-  }
-  /*shopping cart*/
-  .conteiner-card {
-    display: flex;
-    flex-direction: column;
-  }
-  .conteiner-card .conteiner-card-shopp-cart {
-    width: 100vw;
-    justify-content: space-around;
-    margin: 10px;
-    padding: 10px;
-    margin-right: 20px;
-  }
-  .conteiner-card .conteiner-card-shopp-cart .conteiner-card-shopp-cart-img-box .conteiner-card-shopp-cart-img {
-    width: 30vw;
-  }
-  .conteiner-card .conteiner-card-shopp-cart .conteiner-card-shopp-cart-text .button-eliminar {
-    width: 30vw;
-  }
-  .boton-comprar-shopp-cart, .boton-vaciar-shopp-cart, .boton-seg-compr-shopp-cart {
-    width: 80vw;
-  }
-  /*about us*/
-  .ab-us-img {
-    width: 70vw;
-  }
-  .contenedor-ab-us div .ab-us-contenedor-p {
-    width: 70vw;
-  }
-  /*contact us*/
-  section .div-footer .footer__form .footer__input {
-    width: 80%;
-  }
-}
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  header {
-    justify-content: space-between;
-  }
-  /*main accesorios*/
-  main .contenedor-img-hombre-mujer {
-    height: 60vh;
-  }
-  .main__img-men, .main__img-women {
-    height: 60vh;
-  }
-  main .main__accesorios-novedades {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
-  }
-  main .main__accesorios-novedades .main__accesorios-novedades-p {
-    display: none;
-  }
-  /*men women*/
-  .title-men-women {
-    text-decoration: underline;
-  }
-  .main__men {
-    height: 140vh;
-  }
-  .main__men .box-de-ropa {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-  }
-  .main__men .box-de-ropa .card {
-    height: 38vh;
-    width: 40vw;
-  }
-  .main__men .box-de-ropa .card .contenedor-btn-compra .button-comprar {
-    width: 20vw;
-    height: 3vh;
-  }
-  /*shopping cart*/
-  .conteiner-card {
-    display: flex;
-    flex-direction: column;
-  }
-  .conteiner-card .conteiner-card-shopp-cart {
-    width: 80vw;
-    justify-content: space-around;
-    margin: 10px;
-    padding: 10px;
-    margin-right: 20px;
-  }
-  .conteiner-card .conteiner-card-shopp-cart .conteiner-card-shopp-cart-img-box .conteiner-card-shopp-cart-img {
-    width: 30vw;
-  }
-  .conteiner-card .conteiner-card-shopp-cart .conteiner-card-shopp-cart-text a .button-eliminar {
-    width: 30vw;
-  }
-  .boton-comprar-shopp-cart, .boton-vaciar-shopp-cart, .boton-seg-compr-shopp-cart {
-    width: 50vw;
-  }
-  /*about us*/
-  .ab-us-contenedor-p {
-    width: 80vw;
-  }
-}
-@media only screen and (min-width: 1200px) {
-  .main__accesorios-novedades {
-    justify-self: center;
-    align-items: center;
-    display: flex;
-    justify-content: space-around;
-  }
-  .main__accesorios-novedades .main__accesorios-novedades-p {
-    display: inline;
-  }
-  .main__accesorios-novedades .accesorios-novedades__img {
-    width: 170px;
-    height: 170px;
-  }
-  .main__accesorios-novedades .img-cuatro {
-    display: none;
-  }
-  .footer__input {
-    width: 500px;
   }
 }
 
