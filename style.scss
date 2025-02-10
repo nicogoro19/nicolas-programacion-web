@@ -361,6 +361,7 @@ aside{
         height: 100vh;
         margin-left: 10px;
     }
+
     /*index*/
     header{
         nav{
@@ -370,8 +371,22 @@ aside{
             }
         }
     }
-
+    header{
+        .nav-bg{
+            background-color: $secondary-color;
+            .header-logo{
+                width: 20vw;
+            }
+        }
+    }
+    
     main{
+        .contenedor-img-principal{
+            .main__img{
+                width: 70vw;
+                height: 100%;
+            }
+        }
         .contenedor-img-hombre-mujer{
             flex-direction: column;
             width: 100vw;
@@ -487,8 +502,9 @@ aside{
     .conteiner-card{
         display:flex ;
         flex-direction: column;
+        flex-grow:grow;
         .conteiner-card-shopp-cart{
-            width: 100vw;
+            width: 90vw;
             justify-content: space-around;
             margin: 10px;
             padding: 10px;
@@ -525,7 +541,7 @@ aside{
         .div-footer{
             .footer__form{
                 .footer__input{
-                    width: 80%;
+                    width: 70%;
                 }
             }
         }
@@ -588,9 +604,11 @@ aside{
             margin: 10px;
             padding: 10px;
             margin-right: 20px;
+            align-items: center;
             .conteiner-card-shopp-cart-img-box{
                 .conteiner-card-shopp-cart-img{
-                    width: 30vw;
+                    height: 20vh;
+                    width: 20vw;
                 }
             }
             .conteiner-card-shopp-cart-text{

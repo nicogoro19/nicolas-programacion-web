@@ -365,6 +365,16 @@ aside .main__accesorios-novedades .accesorios-novedades__img {
   header nav img {
     width: 30%;
   }
+  header .nav-bg {
+    background-color: rgb(135, 35, 65);
+  }
+  header .nav-bg .header-logo {
+    width: 20vw;
+  }
+  main .contenedor-img-principal .main__img {
+    width: 70vw;
+    height: 100%;
+  }
   main .contenedor-img-hombre-mujer {
     flex-direction: column;
     width: 100vw;
@@ -465,9 +475,10 @@ aside .main__accesorios-novedades .accesorios-novedades__img {
   .conteiner-card {
     display: flex;
     flex-direction: column;
+    flex-grow: grow;
   }
   .conteiner-card .conteiner-card-shopp-cart {
-    width: 100vw;
+    width: 90vw;
     justify-content: space-around;
     margin: 10px;
     padding: 10px;
@@ -491,7 +502,7 @@ aside .main__accesorios-novedades .accesorios-novedades__img {
   }
   /*contact us*/
   section .div-footer .footer__form .footer__input {
-    width: 80%;
+    width: 70%;
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1023px) {
@@ -546,9 +557,11 @@ aside .main__accesorios-novedades .accesorios-novedades__img {
     margin: 10px;
     padding: 10px;
     margin-right: 20px;
+    align-items: center;
   }
   .conteiner-card .conteiner-card-shopp-cart .conteiner-card-shopp-cart-img-box .conteiner-card-shopp-cart-img {
-    width: 30vw;
+    height: 20vh;
+    width: 20vw;
   }
   .conteiner-card .conteiner-card-shopp-cart .conteiner-card-shopp-cart-text a .button-eliminar {
     width: 30vw;
