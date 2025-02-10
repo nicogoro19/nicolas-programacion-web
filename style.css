@@ -183,6 +183,10 @@ footer .footer__img-logo {
   color: whitesmoke;
 }
 
+section .title-contact-us {
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
 section div {
   align-items: center;
   justify-content: center;
@@ -200,6 +204,7 @@ section .footer__form .footer__label {
 section .footer__form .footer__input {
   width: 30vw;
   border-radius: 15px;
+  margin-bottom: 1%;
 }
 section .footer__form .btn-enviar {
   background-color: rgb(135, 35, 65);
@@ -494,18 +499,20 @@ aside .main__accesorios-novedades .accesorios-novedades__img {
     justify-content: space-between;
   }
   /*main accesorios*/
-  main .contenedor-img-hombre-mujer {
-    height: 60vh;
-  }
-  .main__img-men, .main__img-women {
-    height: 60vh;
-  }
   main .main__accesorios-novedades {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
   }
   main .main__accesorios-novedades .main__accesorios-novedades-p {
+    display: none;
+  }
+  aside .main__accesorios-novedades {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  aside .main__accesorios-novedades .main__accesorios-novedades-p {
     display: none;
   }
   /*men women*/
@@ -552,6 +559,15 @@ aside .main__accesorios-novedades .accesorios-novedades__img {
   /*about us*/
   .ab-us-contenedor-p {
     width: 80vw;
+  }
+  /*contact us*/
+  section .title-contact-us {
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  section .div-footer .footer__form .footer__input {
+    width: 50vw;
+    margin-bottom: 3%;
   }
 }
 @media only screen and (min-width: 1200px) {
