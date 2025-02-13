@@ -30,8 +30,8 @@ main {
   justify-content: center;
 }
 main .main__img {
-  width: 70vw;
-  height: 100vh;
+  width: 50vw;
+  height: 70vh;
   margin: 10px;
 }
 main .contenedor-img-hombre-mujer {
@@ -375,7 +375,7 @@ aside .main__accesorios-novedades .accesorios-novedades__img {
   }
   main .contenedor-img-principal .main__img {
     width: 70vw;
-    height: 100%;
+    height: 50%;
   }
   main .contenedor-img-hombre-mujer {
     flex-direction: column;
