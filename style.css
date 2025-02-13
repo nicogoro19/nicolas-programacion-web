@@ -54,7 +54,7 @@ main .main__accesorios-novedades {
   margin: 2%;
   border-radius: 20px;
   background-color: rgb(135, 35, 65);
-  justify-items: center;
+  justify-content: center;
 }
 main .main__accesorios-novedades .main__accesorios-novedades-p {
   color: rgb(9, 18, 44);
