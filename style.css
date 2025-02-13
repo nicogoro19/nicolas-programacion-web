@@ -50,15 +50,15 @@ main .contenedor-img-hombre-mujer .main__img-men-women {
 }
 main .main__accesorios-novedades {
   width: 100%;
-  padding: 30px;
-  margin: 10px;
+  padding: 3%;
+  margin: 2%;
   border-radius: 20px;
   background-color: rgb(135, 35, 65);
   justify-items: center;
 }
 main .main__accesorios-novedades .main__accesorios-novedades-p {
   color: rgb(9, 18, 44);
-  font-size: 100px;
+  font-size: 400%;
   justify-self: center;
 }
 main .main__accesorios-novedades .accesorios-novedades__img {
@@ -213,7 +213,7 @@ section .footer__form .btn-enviar {
 }
 
 /*contact us ends*/
-/*men*/
+/*men women*/
 .title-men-women {
   text-align: center;
   color: whitesmoke;
@@ -237,7 +237,6 @@ section .footer__form .btn-enviar {
   padding: 5px;
   margin: 10px;
   width: 15vw;
-  height: 46vh;
   background-color: rgb(135, 35, 65);
   color: whitesmoke;
   text-align: center;
@@ -253,6 +252,9 @@ section .footer__form .btn-enviar {
 .main__men .card .contenedor-btn-compra .precio {
   color: whitesmoke;
   margin-top: 15px;
+}
+.main__men .card .button-next-prev:hover {
+  background-color: black;
 }
 
 .button-comprar, .button-eliminar {
@@ -460,6 +462,10 @@ aside .main__accesorios-novedades .accesorios-novedades__img {
     background-color: rgb(135, 35, 65);
     color: whitesmoke;
   }
+  .main__men .box-de-ropa .card .img-carrusel-homb-muj {
+    height: 23vh;
+    width: 10vw;
+  }
   .main__men .box-de-ropa .card .subtitle-box, .main__men .box-de-ropa .card .box-p {
     display: none;
   }
@@ -531,7 +537,7 @@ aside .main__accesorios-novedades .accesorios-novedades__img {
     text-decoration: underline;
   }
   .main__men {
-    height: 140vh;
+    height: 100%;
   }
   .main__men .box-de-ropa {
     display: grid;
@@ -539,12 +545,15 @@ aside .main__accesorios-novedades .accesorios-novedades__img {
     grid-template-rows: repeat(3, 1fr);
   }
   .main__men .box-de-ropa .card {
-    height: 38vh;
+    height: 50vh;
     width: 40vw;
   }
-  .main__men .box-de-ropa .card .contenedor-btn-compra .button-comprar {
-    width: 20vw;
-    height: 3vh;
+  .main__men .box-de-ropa .card .img-carrusel-homb-muj {
+    width: 37vw;
+    height: 35vh;
+  }
+  .main__men .box-de-ropa .card .contenedor-btn-compra {
+    display: none;
   }
   /*shopping cart*/
   .conteiner-card {

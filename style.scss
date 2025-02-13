@@ -51,14 +51,14 @@ main{
     }
     .main__accesorios-novedades{
         width: 100%;
-        padding: 30px;
-        margin: 10px;
+        padding: 3%;
+        margin: 2%;
         border-radius: 20px;
         background-color: $secondary-color;
         justify-items: center;
         .main__accesorios-novedades-p{
             color: $primary-color;
-            font-size: 100px;
+            font-size: 400%;
             justify-self: center;
         }
         .accesorios-novedades__img{
@@ -216,7 +216,7 @@ section{
 
 /*contact us ends*/
 
-/*men*/
+/*men women*/
 .title-men-women{
     text-align: center;
     color: $font-color1;
@@ -237,8 +237,7 @@ section{
     .card{
         padding: 5px;
         margin: 10px;
-        width: 15vw;
-        height: 46vh;    
+        width: 15vw;  
         background-color: $secondary-color;
         color: $font-color1;    
         text-align: center;    
@@ -253,6 +252,9 @@ section{
                 color:$font-color1;
                 margin-top: 15px;
             }
+        }
+        .button-next-prev:hover{
+            background-color: black;
         }
     }
 }
@@ -482,6 +484,10 @@ aside{
                 height: 30vh;    
                 background-color: $secondary-color;
                 color: $font-color1;
+                .img-carrusel-homb-muj{
+                    height: 23vh;
+                    width: 10vw;
+                }
                 .subtitle-box , .box-p{
                     display: none;
                 }
@@ -577,19 +583,20 @@ aside{
         text-decoration: underline;
     }
     .main__men{
-        height: 140vh;
+        height: 100%;
         .box-de-ropa{
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             grid-template-rows: repeat(3,1fr);
             .card{
-                height: 38vh;
+                height: 50vh;
                 width: 40vw;
+                .img-carrusel-homb-muj{
+                    width: 37vw;
+                    height: 35vh;
+                }
                 .contenedor-btn-compra{
-                    .button-comprar{
-                        width:20vw; 
-                        height: 3vh;
-                    }
+                    display: none;
                 }
             }
         }
